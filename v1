@@ -812,3 +812,6 @@ with col_btn2:
                 session.sql(undo_sql).collect()
             st.success("✅ Undid last action for " + str(len(st.session_state.last_action)) + " table(s).")
             st.session_state.last_action = None
+
+
+DB_CORE_BUSI_MNGD_FILES_PRD.PSG.INSIGHTS_CORE_INGESTION;
