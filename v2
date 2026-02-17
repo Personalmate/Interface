@@ -741,3 +741,5 @@ with col_btn2:
                 session.sql(undo_sql).collect()
             st.success("✅ Undid last action for " + str(len(st.session_state.last_action)) + " table(s).")
             st.session_state.last_action = None
+
+ DB_CORE_PRD.PSG.OPS_TEAM_STATIC_INTERFACE_TABLE
